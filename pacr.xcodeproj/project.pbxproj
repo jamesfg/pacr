@@ -15,6 +15,8 @@
 		9DE330571C017294007B6F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE330551C017294007B6F58 /* LaunchScreen.storyboard */; };
 		9DE330621C017296007B6F58 /* pacrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE330611C017296007B6F58 /* pacrTests.swift */; };
 		9DE3306D1C017296007B6F58 /* pacrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE3306C1C017296007B6F58 /* pacrUITests.swift */; };
+		9DE3307B1C01768B007B6F58 /* distanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE3307A1C01768B007B6F58 /* distanceTableViewCell.swift */; };
+		9DE3307D1C01800E007B6F58 /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE3307C1C01800E007B6F58 /* Distance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9DE330681C017296007B6F58 /* pacrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pacrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE3306C1C017296007B6F58 /* pacrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pacrUITests.swift; sourceTree = "<group>"; };
 		9DE3306E1C017296007B6F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE3307A1C01768B007B6F58 /* distanceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = distanceTableViewCell.swift; sourceTree = "<group>"; };
+		9DE3307C1C01800E007B6F58 /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				9DE330551C017294007B6F58 /* LaunchScreen.storyboard */,
 				9DE330581C017294007B6F58 /* Info.plist */,
 				9DE330501C017294007B6F58 /* pacr.xcdatamodeld */,
+				9DE3307A1C01768B007B6F58 /* distanceTableViewCell.swift */,
+				9DE3307C1C01800E007B6F58 /* Distance.swift */,
 			);
 			path = pacr;
 			sourceTree = "<group>";
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE3307B1C01768B007B6F58 /* distanceTableViewCell.swift in Sources */,
 				9DE3304C1C017294007B6F58 /* ViewController.swift in Sources */,
 				9DE330521C017294007B6F58 /* pacr.xcdatamodeld in Sources */,
 				9DE3304A1C017294007B6F58 /* AppDelegate.swift in Sources */,
+				9DE3307D1C01800E007B6F58 /* Distance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
